@@ -305,6 +305,292 @@
                     "original": "ラシード"
                 }
             ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Alex"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Alex",
+                    "original": "アレックス"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Guile"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Guile",
+                    "original": "ガイル"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Ibuki"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Ibuki",
+                    "original": "いぶき"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Balrog"
+                },
+                {
+                    "region": "japan",
+                    "roman": "M. Bison",
+                    "original": "マイク・バイソン"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Juri Han"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Juri Han",
+                    "original": "ハン・ジュリ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Urien"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Urien",
+                    "original": "ユリアン"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Akuma"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Gouki",
+                    "original": "ゴウキ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Kolin"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Kolin",
+                    "original": "コーリン"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Ed"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Ed",
+                    "original": "エド"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Abigail"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Abigail",
+                    "original": "アビゲイル"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Menat"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Menat",
+                    "original": "メナト"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Zeku"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Zeku",
+                    "original": "是空"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Sakura Kasugano"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Sakura Kasugano",
+                    "original": "春日野 さくら"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Blanka"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Blanka",
+                    "original": "ブランカ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Falke"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Falke",
+                    "original": "ファルケ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Cody Travers"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Cody Travers",
+                    "original": "コーディー・トラバース"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "G"
+                },
+                {
+                    "region": "japan",
+                    "roman": "G",
+                    "original": "ジー"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Sagat"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Sagat",
+                    "original": "サガット"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Kage"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Kage",
+                    "original": "影"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Edmond Honda"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Edmond Honda",
+                    "original": "エドモンド本田"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Lucia Morgan"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Lucia Morgan",
+                    "original": "ルシア・モーガン"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Poison"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Poison",
+                    "original": "ポイズン"
+                }
+            ]
         }
 	]
 }
