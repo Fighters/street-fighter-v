@@ -12,23 +12,23 @@
 			}
 		],
 		"also-known-as": [
-			"sf5", "street 5", "sfv"
+			"sf5", "street 5", "sfv", "sf5ae", "sf5 arcade edition"
 		]
 	},
 	"platforms": [
-		/* {
+		{
 			"platform": "Arcade",
 			"regions": [
 				{
 					"region": "Japan",
 					"roman": "Street Fighter V Type Arcade",
-					"original": "ストリートファイターV",
+					"original": "ストリートファイターVタイプアーケード",
 					"releaseDate": "10-05-2018",
 					"developer": "Capcom",
 					"publisher": "Capcom"
 				}
 			]
-		},*/
+		},
 		{
 			"platform": "PC",
 			"regions": [
@@ -68,7 +68,32 @@
                     "developer": "Capcom",
                     "publisher": "Capcom",
                     "coverFront": "ps4-JP-front.webp"
-				}
+				},
+                {
+                    "region": "United States",
+                    "roman": "Street Fighter V Arcade Edition",
+                    "releaseDate": "01-16-2018",
+                    "developer": "Capcom",
+                    "publisher": "Capcom",
+                    "coverFront": "ps4-US-front-AE.webp"
+                },
+                {
+                    "region": "Europe",
+                    "roman": "Street Fighter V Arcade Edition",
+                    "releaseDate": "01-16-2018",
+                    "developer": "Capcom",
+                    "publisher": "Capcom",
+                    "coverFront": "ps4-EU-front-AE.webp"
+                },
+                {
+                    "region": "Japan",
+                    "roman": "Street Fighter V Arcade Edition",
+                    "original": "ストリートファイターVアーケードエディション",
+                    "releaseDate": "01-16-2018",
+                    "developer": "Capcom",
+                    "publisher": "Capcom",
+                    "coverFront": "ps4-JP-front.webp"
+                }
 			]
 		}		
 	],
