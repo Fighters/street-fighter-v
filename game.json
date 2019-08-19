@@ -1,0 +1,285 @@
+{
+	"romans": {
+		"regions": [
+			{ 
+				"region": "default",
+				"roman": "Street Fighter V"
+			},
+			{
+				"region": "japan",
+				"roman": "Street Fighter V",
+				"original": "ストリートファイターV"
+			}
+		],
+		"also-known-as": [
+			"sf5", "street 5", "sfv"
+		]
+	},
+	"platforms": [
+		/* {
+			"platform": "Arcade",
+			"regions": [
+				{
+					"region": "Japan",
+					"roman": "Street Fighter V Type Arcade",
+					"original": "ストリートファイターV",
+					"releaseDate": "10-05-2018",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				}
+			]
+		},*/
+		{
+			"platform": "PC",
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Street Fighter V",
+					"releaseDate": "02-16-2016",
+					"developer": "Capcom",
+					"publisher": "Capcom"
+				}
+			]
+		},
+		{
+			"platform": "PlayStation 4",
+			"regions": [
+				{
+					"region": "United States",
+					"roman": "Street Fighter V",
+					"releaseDate": "02-16-2016",
+					"developer": "Capcom",
+                    "publisher": "Capcom",
+					"coverFront": "ps4-US-front.webp"
+				},
+				{
+                    "region": "Europe",
+                    "roman": "Street Fighter V",
+                    "releaseDate": "02-16-2016",
+                    "developer": "Capcom",
+                    "publisher": "Capcom",
+                    "coverFront": "ps4-EU-front.webp"
+                },
+				{
+					"region": "Japan",
+					"roman": "Street Fighter V",
+                    "original": "ストリートファイターV",
+					"releaseDate": "02-16-2016",
+                    "developer": "Capcom",
+                    "publisher": "Capcom",
+                    "coverFront": "ps4-JP-front.webp"
+				}
+			]
+		}		
+	],
+	"characters": [
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Ryu"
+				},
+				{
+					"region": "japan",
+					"roman": "Ryu",
+					"original": "リュウ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Ken Masters"
+				},
+				{
+					"region": "japan",
+					"roman": "Ken Masters",
+					"original": "ケン・マスターズ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Chun-Li"
+				},
+				{
+					"region": "japan",
+					"roman": "Chun-Li",
+					"original": "チュンリー"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Cammy White"
+				},
+				{
+					"region": "japan",
+					"roman": "Cammy White",
+					"original": "キャミィ・ホワイト"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Birdie"
+				},
+				{
+					"region": "japan",
+					"roman": "Birdie",
+					"original": "バーディー"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Dhalsim"
+				},
+				{
+					"region": "japan",
+					"roman": "Dhalsim",
+					"original": "ダルシム"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Karin Kanzuki"
+				},
+				{
+					"region": "japan",
+					"roman": "Karin Kanzuki",
+					"original": "神月 かりん"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "M. Bison"
+				},
+				{
+					"region": "japan",
+					"roman": "Vega",
+					"original": "ベガ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Charlie Nash"
+				},
+				{
+					"region": "japan",
+					"roman": "Charlie Nash",
+					"original": "チャーリー・ナッシュ"
+				}
+			]
+		},
+		{ 
+			"regions": [
+				{
+					"region": "default",
+					"roman": "Rainbow Mika"
+				},
+				{
+					"region": "japan",
+					"roman": "Rainbow Mika",
+					"original": "レインボー・ミカ"
+				}
+			]
+		},
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Vega"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Balrog",
+                    "original": "バルログ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Zangief"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Zangief",
+                    "original": "ザンギエフ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "F.A.N.G"
+                },
+                {
+                    "region": "japan",
+                    "roman": "F.A.N.G",
+                    "original": "ファン"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Laura Matsuda"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Laura Matsuda",
+                    "original": "ララ・マツダ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Necalli"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Necalli",
+                    "original": "ネカリ"
+                }
+            ]
+        },
+        { 
+            "regions": [
+                {
+                    "region": "default",
+                    "roman": "Rashid"
+                },
+                {
+                    "region": "japan",
+                    "roman": "Rashid",
+                    "original": "ラシード"
+                }
+            ]
+        }
+	]
+}
