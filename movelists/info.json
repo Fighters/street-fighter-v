@@ -7,9 +7,7 @@
             { "HP": "HP" },
             { "LK": "LK" },
             { "MK": "MK" },
-            { "HK": "HK" },
-            { "3P": "3P" },
-            { "3K": "3K" }
+            { "HK": "HK" }
         ],
         "PlayStation 4": [
             { "LP": "Square" },
@@ -17,9 +15,9 @@
             { "HP": "R1" },
             { "LK": "X" },
             { "MK": "Circle" },
-            { "HK": "R2" },
-            { "3P": "L1" },
-            { "3K": "L2" }
+            { "HK": "R2" }
         ]
-    }
+    },
+    "hasUpgrades": true,
+    "upgradeName": "EX"
 }

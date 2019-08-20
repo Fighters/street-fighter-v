@@ -45,7 +45,7 @@
 		"{v-reversal}": [
 			{
 				"name": "Hashogeki",
-				"input": ":f:+[3P]",
+				"input": ":f:+[LP]+[MP]+[HP]",
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
@@ -75,28 +75,28 @@
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P] ({duringVTrigger1}, {hold} [P] {toDelay}",
-				"ex": true
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Shoryuken",
 				"input": ":dp:+[P]",
-				"ex": true
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Tatsumaki Senpukyaku",
 				"input": ":qcb:+[K]",
-				"ex": true
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Airborne Tatsumaki Senpukyaku",
 				"input": ":qcb:+[K]",
-				"ex": true,
+				"canBeUpgraded": true, "costOfUpgrade": 1,
 				"extraInfo": "{duringForwardJump}"
 			},
 			{
 				"name": "Jodan Sokutou Geri",
 				"input": ":hcf:+[K]",
-				"ex": true
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Isshin",
