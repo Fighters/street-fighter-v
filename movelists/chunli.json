@@ -1,0 +1,170 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Chun-Li"
+		},
+		{
+			"region": "japan",
+			"roman": "Chun-Li",
+			"original": "チュンリー"
+		}
+	],
+	"images": {
+		"face": "chunli.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Koshuto",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Tenshin Shushu",
+				"input": ":b:+[LP]+[LK]"
+			},
+			{
+				"name": "Ryuseiraku",
+				"input": "[LP]+[LK]",
+				"extraInfo": "{inAirAndClose}"
+			}
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Renkiko",
+				"input": "[HP]+[HK]"
+			}		
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Kikosho",
+				"input": "[HP]+[HK]"
+			}		
+		],
+		"{v-skill}": [
+			{
+				"name": "Rankyaku",
+				"input": "[MP]+[MK]",
+			},
+			{
+				"name": "Souseikyaku",
+				"input": "[MP]+[MK] > [MP]+[MK]",
+			}	
+		],
+		"{v-reversal}": [
+			{
+				"name": "Sohakkei",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Tsuitotsuken",
+				"input": ":b: {or} :f:+[MP]",
+			},
+			{
+				"name": "Hakkei",
+				"input": ":b:+[HP]"
+			},
+			{
+				"name": "Senenshu",
+				"input": ":df:+[MK]"
+			},
+			{
+				"name": "Tenkukyaku",
+				"input": ":b:+[HK]"
+			},
+			{
+				"name": "Yokusenkyaku",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Kakurakukyaku",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "Yosokyaku",
+				"input": "{inAir}, :d:+[MK]"
+			},
+			{
+				"name": "Wall Jump",
+				"input": "{duringJumpNearWall}, :uf:"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Kikoken",
+				"input": "{charge} :b: :f:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Spinning Bird Kick",
+				"input": "{charge} :d: :u:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+			},
+			{
+				"name": "Hyakuretsukyaku I",
+				"input": ":qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Hyakuretsukyaku II",
+				"input": "{tapKick}",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Airborne Hyakuretsukyaku",
+				"input": "{duringForwardJump} :qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Kikosho",
+				"input": "[HP]+[HK] ({hold} [HP]+[HK] {toDelay})",
+				"extraInfo": "{duringVTrigger2}, {tapPunch}"
+			}
+
+		],
+		"{critical-art}": [
+			{
+				"name": "Hoyokusen",
+				"input": ":qcf::qcf:+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack "},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" }
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" }
+		]
+	}
+}

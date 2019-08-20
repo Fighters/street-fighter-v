@@ -34,7 +34,7 @@
 			{
 				"name": "Shinryuken",
 				"input": "[HP]+[HK]",
-				"extraInfo": "{tapPunch}"
+				"extraInfo": "{tapPunchForMoreHits}"
 			}		
 		],
 		"{v-skill}": [
@@ -99,7 +99,7 @@
 			{
 				"name": "Shinryuken",
 				"input": "[HP]+[HK]",
-				"extraInfo": "{duringVTrigger2}, {tapPunch}"
+				"extraInfo": "{duringVTrigger2}, {tapPunchForMoreHits}"
 			}
 
 		],
@@ -113,7 +113,7 @@
 	"custom_strings": {
 		"english": [
 			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] for more hits"},
+			{ "tapPunchForMoreHits": "tap [P] repeatedly for more hits"},
 			{ "holdToAttack" : "hold buttons to attack "},
 			{ "holdHKToAttack": "hold HK to attack"},
 			{ "hold": "hold"},
@@ -124,7 +124,7 @@
 		],
 		"portuguese": [
 			{ "whileBlocking": "ao defender"},
-			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
 			{ "holdToAttack" : "segure os botões para atacar"},
 			{ "holdHKToAttack": "segure HK para atacar"},
 			{ "hold": "segure"},
