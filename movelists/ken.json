@@ -11,7 +11,7 @@
 		}
 	],
 	"images": {
-		"face": "ryu.webp"
+		"face": "ken.webp"
 	},
 	"moves": {
 		"{normal-throws}": [
