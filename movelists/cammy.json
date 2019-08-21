@@ -1,0 +1,195 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Cammy"
+		},
+		{
+			"region": "japan",
+			"roman": "Cammy",
+			"original": "キャミィ"
+		}
+	],
+	"images": {
+		"face": "cammy.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Gyro Clipper",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Delta Through",
+				"input": ":b:+[LP]+[LK]"
+			},
+			{
+				"name": "Neck Spiral",
+				"input": "[LP]+[LK]",
+				"extraInfo": "{inAirAndClose}"
+			}
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Delta Drive",
+				"input": "[HP]+[HK]"
+			}		
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Delta Ambush",
+				"input": "[HP]+[HK]"
+			},
+			{
+				"name": "Delta Step",
+				"input": ":f:+[HP]+[HK]"
+			}		
+		],
+		"{v-skill}": [
+			{
+				"name": "Axel Spin Knuckle",
+				"input": "[MP]+[MK]",
+			}	
+		],
+		"{v-reversal}": [
+			{
+				"name": "Strike Back",
+				"input": ":f:+[LK]+[MK]+[HK]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Knee Bullet",
+				"input": ":f:+[HK]",
+			},
+			{
+				"name": "Lift Upper",
+				"input": ":b:+[MP]"
+			},
+			{
+				"name": "Lift Combination",
+				"input": ":b:+[MP] > [HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Spiral Arrow",
+				"input": ":qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Cannon Spike",
+				"input": ":dp:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+			},
+			{
+				"name": "Cannon Strike",
+				"input": "{duringForwardJump} :qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Hooligan Combination",
+				"input": ":hcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Razor Edge Slicer",
+				"input": "{doNothing}",
+				"canBeUpgraded": false,
+				"after": "Hooligan Combination"
+
+			},
+			{
+				"name": "Fatal Leg Twister",
+				"input": "{close} [LP]+[LK]",
+				"canBeUpgraded": false,
+				"after": "Hooligan Combination"
+
+			},
+			{
+				"name": "Cross Scissors Pressure",
+				"input": "{inAirAndClose} [LP]+[LK]",
+				"canBeUpgraded": false,
+				"after": "Hooligan Combination"
+
+			},
+			{
+				"name": "Cannon Strike",
+				"input": "[K]",
+				"canBeUpgraded": false,
+				"after": "Hooligan Combination"
+
+			},
+			{
+				"name": "Delta Ambush",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Delta Twist",
+				"input": "[P]",
+				"extraInfo": "{duringVTrigger2}",
+				"after": "Delta Ambush"
+			},
+			{
+				"name": "Reverse Edge",
+				"input": "[K]",
+				"extraInfo": "{duringVTrigger2}",
+				"after": "Delta Ambush"
+			},
+			{
+				"name": "Delta Step",
+				"input": ":f:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+
+
+		],
+		"{critical-art}": [
+			{
+				"name": "Cross Stinger Assault",
+				"input": ":qcf::qcf:+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack "},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "doNothing": "do nothing"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "doNothing": "não faça nada"}
+		]
+	}
+}
