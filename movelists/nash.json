@@ -1,0 +1,218 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Nash"
+		},
+		{
+			"region": "japan",
+			"roman": "Nash",
+			"original": "ナッシュ"
+				}
+	],
+	"images": {
+		"face": "nash.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Dragon Suplex",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Target Down",
+				"input": ":b:+[LP]+[LK]"
+			},
+			{
+				"name": "Air Jack",
+				"input": "{inAirAndClose} [LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Sonic Move - Hide",
+				"input": "[HP]+[HK]"
+			},
+			{
+				"name": "Sonic Move - Blitz Air",
+				"input": ":b:+[HP]+[HK]"
+			},
+			{
+				"name": "Sonic Move - Steel Air",
+				"input": ":f:+[HP]+[HK]"
+			}		
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Stealth Dash",
+				"input": "[HP]+[HK]"
+			}		
+		],
+		"{v-skill}": [
+			{
+				"name": "Bullet Clear",
+				"input": "[MP]+[MK]"
+			}		
+		],
+		"{v-reversal}": [
+			{
+				"name": "Sonic Move - Avoid",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Chopping Assault",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Spinning Back Knuckle",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Knee Bazooka",
+				"input": ":f:+[LK]"
+			},
+			{
+				"name": "Jumping Sobat",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Side Knee Attack",
+				"input": ":b:+[MK]"
+			},
+			{
+				"name": "Step Kick",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Rapid Punch",
+				"input": "[LP] > [MP]"
+			},
+			{
+				"name": "Rapid Kick",
+				"input": "[LK] > [MK]"
+			},
+			{
+				"name": "Wind Shear 1st",
+				"input": "[MP] > [LK]"
+			},
+			{
+				"name": "Wind Shear 2nd",
+				"input": "[MP] > [LK] > [HP]"
+			},
+			{
+				"name": "Down Burst",
+				"input": ":d:+[MP] > :f:+[MP]"
+			},
+			{
+				"name": "Raptor Combination 1st",
+				"input": "[MK] > [HK]"
+			},
+			{
+				"name": "Raptor Combination 2nd",
+				"input": "[MK] > [HK] > [MK]"
+			},
+			{
+				"name": "Bullet Combination",
+				"input": "[MK] > [HK] > [MP]+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Sonic Boom",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{exSonicBoom}"
+			},
+			{
+				"name": "Moonsault Slash",
+				"input": ":qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Sonic Scythe",
+				"input": ":qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Tragedy Assault",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Stealth Dash",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Stealth Dash (Stop)",
+				"input": ":b:",
+				"after": "Stealth Dash"
+			},
+			{
+				"name": "Justice Corridor",
+				"input": "[P]",
+				"after": "Stealth Dash"
+			},
+			{
+				"name": "Justice Shell",
+				"input": "[K]",
+				"after": "Stealth Dash"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Judgement Saber",
+				"input": ":qcb::qcb:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack "},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "doNothing": "do nothing"},
+			{ "exSonicBoom": "press [P] during EX version for another projectile"} //NASH SF5 SPECIFIC
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "doNothing": "não faça nada"},
+			{ "exSonicBoom": "aperte [P] durante a versão EX para mais um projetil"} //NASH SF5 SPECIFIC
+		]
+	}
+}
