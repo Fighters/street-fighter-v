@@ -108,7 +108,7 @@
 		"{critical-art}": [
 			{
 				"name": "Yoga Sunburst",
-				"input": ":qcf::qcf:+[P] {hold} [P] {toDelay}",
+				"input": ":qcf::qcf:+[P] {hold} [P] {toCharge}",
 				"extraInfo": "{airOK}"
 			}
 		]
