@@ -156,6 +156,7 @@
 			{ "useBOrFToMove": "use :b: or :f: to move"},
 		],
 		"portuguese": [
+			{ "backTurnedOpponent": "após Flash Chop versão [HP] ou Sledge Hammer"}, //ALEX SF5 SPECIFIC
 			{ "or": "ou"},
 			{ "airOK":"também pode ser feito no ar"},
 			{ "close": "perto"},

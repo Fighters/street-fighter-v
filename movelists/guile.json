@@ -154,7 +154,6 @@
 	},
 	"custom_strings": {
 		"english": [
-			{ "backTurnedOpponent": "after [HP] Flash Chop or Sledge Hammer"}, //ALEX SF5 SPECIFIC
 			{ "or": "or"},
 			{ "airOK":"can be done in the air"},
 			{ "close": "close"},
