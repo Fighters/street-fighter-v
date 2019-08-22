@@ -165,7 +165,8 @@
 			{ "duringVTrigger1": "durante o V-Trigger 1"},
 			{ "duringVTrigger2": "durante o V-Trigger 2"},
 			{ "duringForwardJump": "durante um pulo para frente" },
-			{ "doNothing": "não faça nada"}
+			{ "doNothing": "não faça nada"},
+			{ "forAtLeast2SecondsThenRelease" : "por pelo menos 2 segundos, então solte"},
 		]
 	}
 }
