@@ -80,12 +80,12 @@
 		"{special-moves}": [
 			{
 				"name": "Whirlwind Shot",
-				"input": "qcf:+[K]",
+				"input": ":qcf:+[K]",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Spinning Mixer",
-				"input": "qcf:+[P] ({tapPunchForMoreHits})",
+				"input": ":qcf:+[P] ({tapPunchForMoreHits})",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
@@ -95,7 +95,7 @@
 			},
 			{
 				"name": "Eagle Spike",
-				"input": "qcb:+[K]",
+				"input": ":qcb:+[K]",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
