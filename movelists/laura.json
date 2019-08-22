@@ -1,0 +1,186 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Laura"
+		},
+		{
+        "region": "japan",
+        "roman": "Laura",
+        "original": "ララ"
+        }
+	],
+	"images": {
+		"face": "laura.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Seoi Throw",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Pullback Hold",
+				"input": ":b:+[LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Spark Show",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Shock Stance",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Volty Line",
+				"input": "[MP]+[MK]"
+			},
+			{
+				"name": "Linear Movement - Avante",
+				"input": ":f:+[MP]+[MK] ({holdToAttack})"
+			},
+			{
+				"name": "Linear Movement - Esquiva",
+				"input": ":b:+[MP]+[MK] ({holdToAttack})"
+			},
+			{
+				"name": "Linear Movement - Finta",
+				"input": ":b:+[MP]+[MK] > [MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Double Slap",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Step Elbow",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Twist Barrage",
+				"input": ":f:+[HP] > [HP]"
+			},
+			{
+				"name": "Dual Crash",
+				"input": "[MP] > [MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Bolt Charge",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Split River",
+				"input": ":qcf:+[MP] > [P]",
+				"canBeUpgraded": false
+			},
+			{
+				"name": "Rodeo Break",
+				"input": ":qcf:+[MP] > [K]",
+				"canBeUpgraded": false
+			},
+			{
+				"name": "Thunder Clap",
+				"input": ":qcb:+[P] ({hold} [P] {toCharge})",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Sunset Wheel",
+				"input": ":hcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Matsuda Sway",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Linear Movement",
+				"input": "[MP]+[MK] ({holdToAttack})",
+				"after": "Matsuda Sway"
+			},
+			{
+				"name": "Shock Choke",
+				"input": "[HP]+[HK]",
+				"after": "Matsuda Sway"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Inazuma Spin Hold",
+				"input": ":qcf::qcf:+[K]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack "},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
