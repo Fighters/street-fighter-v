@@ -1,0 +1,190 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Urien"
+		},
+		{
+			"region": "japan",
+			"roman": "Urien",
+			"original": "ユリアン"
+		}
+	],
+	"images": {
+		"face": "urien.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Spartan Bomb",
+				"input": ":b: {or} :n: {or} :f:+[LP]+[LK]"
+			}	
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Aegis Reflector (Back)",
+				"input": ":n: {or} :f:+[HP]+[HK]"
+			},
+			{
+				"name": "Aegis Reflector (Forward)",
+				"input": ":b:+[HP]+[HK]"
+			},
+			{
+				"name": "Aegis Reflector (Up)",
+				"input": ":d:+[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Tyrant Pressure",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Metallic Aura",
+				"input": "[MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Anger Snap Fist",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Quarrel Punch",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Quarrel Kick",
+				"input": ":df:+[HK]"
+			},
+			{
+				"name": "Terrible Smash",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Killer Straight",
+				"input": "[LP] > [MP]"
+			},
+			{
+				"name": "Break Rush",
+				"input": ":f:+[MP] > :f:+[HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Metallic Sphere",
+				"input": ":qcf:+[P] ({hold} [P] {toCharge})",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Chariot Tackle",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Violence Knee Drop",
+				"input": "{charge} :d: :u:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Dangerous Headbutt",
+				"input": "{charge} :d: :u:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Aegis Reflector (Back)",
+				"input": ":n: {or} :f:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Aegis Reflector (Forward)",
+				"input": ":b:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Aegis Reflector (Up)",
+				"input": ":d:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Tyrant Blaze",
+				"input": "[HP]+[HK] ({holdToCharge})",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Dominant Crush",
+				"input": ":qcf::qcf:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
