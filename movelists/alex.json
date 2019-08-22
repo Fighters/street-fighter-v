@@ -2,127 +2,130 @@
 	"names": [
 		{
 			"region": "default",
-			"roman": "Rashid"
+			"roman": "Alex"
 		},
 		{
-        	"region": "japan",
-        	"roman": "Rashid",
-        	"original": "ラシード"
-        }
+			"region": "japan",
+			"roman": "Alex",
+			"original": "アレックス"
+		}
 	],
 	"images": {
-		"face": "rashid.webp"
+		"face": "alex.webp"
 	},
 	"moves": {
 		"{normal-throws}": [
 			{
-				"name": "Riding Glider",
+				"name": "Face-Crush Chop",
 				"input": "[LP]+[LK]"
 			},
 			{
-				"name": "Rising Sun",
+				"name": "Leg Tomahawk",
 				"input": ":b:+[LP]+[LK]"
 			}		
 		],
 		"{v-trigger1}": [
 			{
-				"name": "Ysaar",
+				"name": "Rage Shift",
 				"input": "[HP]+[HK]"
 			}	
 		],
 		"{v-trigger2}": [
 			{
-				"name": "Easifa",
+				"name": "Rage Boost",
 				"input": "[HP]+[HK]"
 			}
 		],
 		"{v-skill}": [
 			{
-				"name": "Front Flip",
+				"name": "Overhaul",
 				"input": "[MP]+[MK]"
-			},
-			{
-				"name": "Airborne Eagle Spike",
-				"input": "[K]",
-				"after": "Front Flip"
-			},
-			{
-				"name": "Rolling Assault",
-				"input": ":d:+[MP]+[MK]"
-			},
-			{
-				"name": "Nail Assault",
-				"input": "[K]",
-				"after": "Rolling Assault"
 			}
 		],
 		"{v-reversal}": [
 			{
-				"name": "Sliding Roll",
-				"input": ":f:+[LP]+[MP]+[HP]",
+				"name": "Big Boot",
+				"input": ":f:+[LK]+[MK]+[HK]",
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
 		"{unique-attacks}": [
 			{
-				"name": "Flap Spin",
+				"name": "Chop",
 				"input": ":f:+[MP]"
 			},
 			{
-				"name": "Beak Assault",
+				"name": "Lariat",
 				"input": ":f:+[HP]"
 			},
 			{
-				"name": "Wall Jump",
-				"input": "{duringJumpNearWall} :uf: {or} :df:"
+				"name": "Flying Cross Chop",
+				"input": "{duringForwardJump} :d:+[HP]"
 			}
 		],
 		"{special-moves}": [
 			{
-				"name": "Whirlwind Shot",
-				"input": "qcf:+[K]",
+				"name": "Flash Chop",
+				"input": "qcf:+[P]",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
-				"name": "Spinning Mixer",
-				"input": "qcf:+[P] ({tapPunchForMoreHits})",
+				"name": "Air Knee Smash",
+				"input": "dp:+[K]",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
-				"name": "Dash Spinning Mixer",
-				"input": "{duringDash} :f:+[P] ({tapPunchForMoreHits})",
-				"canBeUpgraded": false
-			},
-			{
-				"name": "Eagle Spike",
-				"input": "qcb:+[K]",
+				"name": "Power Bomb",
+				"input": ":hcb:+[P]",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
-				"name": "Dash Eagle Spike",
-				"input": "{duringDash} :f:+[K]",
-				"canBeUpgraded": false
-			},
-			{
-				"name": "Airborne Eagle Spike",
-				"input": "{duringForwardJump} :qcb:+[K]",
+				"name": "Power Drop",
+				"input": "hcb:+[P] {backTurnedOpponent}",
 				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
-				"name": "Haboob",
+				"name": "Slash Elbow",
+				"input": "{charge} :b: :f:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Air Stampede",
+				"input": "{charge} :d: :u:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Head Crush",
+				"input": "{charge} :d: :u:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Sledge Hammer",
+				"input": "[HP]+[HK] ({holdToCharge})",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Flying DDT",
 				"input": "[HP]+[HK]",
 				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Choke Sleeper",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}",
+				"after": "Flash Chop"
 			}
 		],
 		"{critical-art}": [
 			{
-				"name": "Altair",
+				"name": "Heavy Hammer",
 				"input": ":qcf::qcf:+[P]"
 			}
 		]
 	},
 	"custom_strings": {
 		"english": [
+			{ "backTurnedOpponent": "after [HP] Flash Chop or Sledge Hammer"}, //ALEX SF5 SPECIFIC
 			{ "or": "or"},
 			{ "airOK":"can be done in the air"},
 			{ "close": "close"},
@@ -150,7 +153,7 @@
 			{ "duringDash" : "during a dash"},
 			{ "doNothing": "do nothing"},
 			{ "onCrouchingOpponent": "on a crouching opponent"},
-			{ "useBOrFToMove": "use :b: or :f: to move"}
+			{ "useBOrFToMove": "use :b: or :f: to move"},
 		],
 		"portuguese": [
 			{ "or": "ou"},

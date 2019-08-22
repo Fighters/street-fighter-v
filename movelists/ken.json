@@ -54,8 +54,7 @@
 		"{unique-attacks}": [
 			{
 				"name": "Thunder Kick",
-				"input": ":f:+[HK]",
-				"extraInfo": "{holdHKToAttack}"
+				"input": ":f:+[HK] (holdHKToAttack)"
 			},
 			{
 				"name": "Inazuma Kick",
