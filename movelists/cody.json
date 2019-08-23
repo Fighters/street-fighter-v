@@ -1,0 +1,254 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Cody"
+		},
+		{
+			"region": "japan",
+			"roman": "Cody",
+			"original": "コーディー"
+		}
+	],
+	"images": {
+		"face": "cody.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Trash Out",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Crime Throw",
+				"input": ":b:+[LP]+[LK]"
+			},
+			{
+				"name": "Secret Work",
+				"input": "[LP]+[LK]",
+				"extraInfo": "{duringVTrigger2}"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Side Arm",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Dirty Coach",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Double Kick",
+				"input": "[MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Prison Breaker",
+				"input": ":f:+[LK]+[MK]+[HK]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Axel Knuckle",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Hammer Kick",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Crack Combination",
+				"input": ":f:+[HK] > [MP]+[MK]"
+			},
+			{
+				"name": "Slip Jab",
+				"input": "[LP] > [LP]"
+			},
+			{
+				"name": "Crime Blow",
+				"input": "[LP] > [LP] > [LP]"
+			},
+			{
+				"name": "Final Combination",
+				"input": "[LP] > [LP] > [LP] > [LP]"
+			},
+			{
+				"name": "Final Combo Throw",
+				"input": "[LP] > [LP] > [LP] > :d:+[LP]"
+			},
+			{
+				"name": "Air Raid Punch",
+				"input": "{inAir} [MP] > [HP]"
+			},
+			{
+				"name": "Air Raid Kick",
+				"input": "{inAir} [MK] > [LK]"
+			},
+			{
+				"name": "Bad Spray",
+				"input": "{whileGettingUp} :u:+[P]"
+			},
+			{
+				"name": "Burst Shot",
+				"input": "{whileHoldingKnife} [MP] > [HP]",
+				"extraInfo": "{duringVTrigger1}"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Tornado Sweep",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{notDuringVTrigger}"
+			},
+			{
+				"name": "Ruffian Kick",
+				"input": ":qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Zonk Knuckle",
+				"input": "{hold} [P] {then} {release}",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Rapid Fire",
+				"input": "{whileHoldingKnife} :qcb:+[P]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Snipe Shot",
+				"input": "{whileHoldingKnife} [HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Anti-Air Snipe Shot",
+				"input": "{whileHoldingKnife} :d:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Reload",
+				"input": "{withoutKnife} [HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},			
+			{
+				"name": "Gentle Swing",
+				"input": "{whileHoldingPipe} [HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Gentle Upper Swing",
+				"input": "{whileHoldingPipe} :d:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Bean Ball",
+				"input": "{whileHoldingPipe} :qcb:+[P]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Present Delivery",
+				"input": "[HP]+[HK]",
+				"after": "Bean Ball",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Unluck Gift",
+				"input": ":d:+[HP]+[HK]",
+				"after": "Bean Ball",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Toss & Smash",
+				"input": "{whileHoldingPipe} :hcb:+[K]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Criminal Punisher",
+				"input": ":qcf::qcf:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"},
+			//CODY SPECIFIC
+			{ "whileHoldingKnife": "while holding the knife"},
+			{ "withoutKnife": "without the knife"},
+			{ "whileHoldingPipe": "while holding the pipe"},
+			{ "notDuringVTrigger": "cannot be done during V-Trigger"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"},
+			//CODY SPECIFIC
+			{ "whileHoldingKnife": "com a faca,"},
+			{ "withoutKnife": "sem a faca"},
+			{ "whileHoldingPipe": "com o cano"},
+			{ "notDuringVTrigger": "não pode ser feito durante V-Trigger"}
+		]
+	}
+}
