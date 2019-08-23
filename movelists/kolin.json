@@ -211,9 +211,9 @@
 			{ "frostTouchLowEX": "EX version done with [LP]+[MP]"},
 			{ "frostTouchMidEX": "EX version done with [LP]+[HP]"},
 			{ "frostTouchHighEX": "EX version done with [MP]+[HP]"},
-			{ "vanityStepLEX": "EX version done with [LK]+[MK] "},
-			{ "vanityStepMEX": "EX version done with [LK]+[HK] "},
-			{ "vanityStepHEX": "EX version done with [MK]+[HK] "},
+			{ "vanityStepLEX": "EX version done with [LK]+[MK]"},
+			{ "vanityStepMEX": "EX version done with [LK]+[HK]"},
+			{ "vanityStepHEX": "EX version done with [MK]+[HK]"}
 		],
 		"portuguese": [
 			{ "or": "ou"},
@@ -244,7 +244,14 @@
 			{ "duringDash" : "durante um dash"},
 			{ "doNothing": "não faça nada"},
 			{ "onCrouchingOpponent": "em um oponente abaixado"},
-			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"},
+			//KOLIN SF5 SPECIFIC
+			{ "frostTouchLowEX": "versão EX é feita com [LP]+[MP]"},
+			{ "frostTouchMidEX": "versão EX é feita com [LP]+[HP]"},
+			{ "frostTouchHighEX": "versão EX é feita com [MP]+[HP]"},
+			{ "vanityStepLEX": "versão EX é feita com [LK]+[MK]"},
+			{ "vanityStepMEX": "versão EX é feita com [LK]+[HK]"},
+			{ "vanityStepHEX": "versão EX é feita com [MK]+[HK]"}
 		]
 	}
 }
