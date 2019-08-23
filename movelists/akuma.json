@@ -150,11 +150,13 @@
 			},
 			{
 				"name": "Hyakki Gozanku",
-				"input": ":hcf:+[K]+[K] > :qcf:+[P]"
+				"input": ":hcf:+[K]+[K] > :qcf:+[P]",
+				"extraInfo": "{exOnly}"
 			},
 			{
 				"name": "Hyakki Gorasen",
-				"input": ":hcf:+[K]+[K] > :qcb:+[K]"
+				"input": ":hcf:+[K]+[K] > :qcb:+[K]",
+				"extraInfo": "{exOnly}"
 			},
 			{
 				"name": "Ashura Senku",
