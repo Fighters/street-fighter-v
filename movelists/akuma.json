@@ -1,0 +1,239 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Akuma"
+		},
+		{
+ 			"region": "japan",
+			"roman": "Gouki",
+			"original": "ゴウキ"
+		}
+	],
+	"images": {
+		"face": "akuma.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Goshoha",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Shuretsuzan",
+				"input": ":b:+[LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Dohatsu Shoten",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Shiretsu Hasshi",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Rakan",
+				"input": "[MP]+[MK] {or} :d:+[MP]+[MK]"
+			},
+			{
+				"name": "Rakan Gosho",
+				"input": "[P]",
+				"after": "Rakan"
+			},
+			{
+				"name": "Rakan Gokyaku",
+				"input": "[K]",
+				"after": "Rakan"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Gosenkyaku",
+				"input": ":f:+[LK]+[MK]+[HK]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Zugaihasatsu",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Sekiseiken",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Tenha",
+				"input": ":b:+[HP]"
+			},
+			{
+				"name": "Tenmakujinkyaku",
+				"input": "{duringForwardJump} :d:+[MK]"
+			},
+			{
+				"name": "Kongoken",
+				"input": "[HP] > [HP]"
+			},
+			{
+				"name": "Kikokurenzan",
+				"input": "[HK] > [HK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Gohadoken",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Sekia Goshoha",
+				"input": ":hcb:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Zanku Hadoken",
+				"input": "{duringForwardJump} :qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Goshoryuken",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Tatsumaki Zankukyaku",
+				"input": ":qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Airborne Tatsumaki Zankukyaku",
+				"input": "{duringForwardJump} :qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Hyakkishu",
+				"input": ":hcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Hyakki Gozan",
+				"input": "{doNothing}",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "Hyakki Gosho",
+				"input": "[P]",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "Hyakki Gosai",
+				"input": "[LP]+[LK]",
+				"after": "Hyakkishu"
+			},
+			{
+				"name": "EX Zanku Hadoken",
+				"input": ":qcf:+[P]+[P]",
+				"after": "Hyakkishu",
+				"extraInfo": "{exOnly}"
+			},
+			{
+				"name": "EX Airborne Tatsumaki Zankukyaku",
+				"input": ":qcb:+[K]+[K]",
+				"after": "Hyakkishu",
+				"extraInfo": "{exOnly}"
+			},
+			{
+				"name": "Hyakki Gozanku",
+				"input": ":hcf:+[K]+[K] > :qcf:+[P]"
+			},
+			{
+				"name": "Hyakki Gorasen",
+				"input": ":hcf:+[K]+[K] > :qcb:+[K]"
+			},
+			{
+				"name": "Ashura Senku",
+				"input": ":dp: {or} :rdp:+[LK]+[MK]+[HK]"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Sekia Kuretsuha",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Shun Goku Satsu",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP]",
+				"extraInfo": "{duringVTrigger1}"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
