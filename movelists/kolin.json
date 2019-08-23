@@ -1,0 +1,250 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Kolin"
+		},
+		{
+			"region": "japan",
+			"roman": "Kolin",
+			"original": "コーリン"
+		}
+	],
+	"images": {
+		"face": "kolin.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Pressure Ridge",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Sublimation",
+				"input": ":b:+[LP]+[LK]"
+			},
+			{
+				"name": "Avalanche Lock",
+				"input": "{inAirAndClose} [LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Diamond Dust",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Absolute Zero",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Inside Slash",
+				"input": "[MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Third Eye",
+				"input": ":f:+[LK]+[MK]+[HK]",
+				"extraInfo": "{whileBlocking}"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Blizzard Heel",
+				"input": ":f:+[MK]"
+			},
+			{
+				"name": "Sniping Kick",
+				"input": ":b:+[HK]"
+			},
+			{
+				"name": "Icicle Stamp",
+				"input": "{duringVerticalOrForwardJump} :d:+[MK]"
+			},
+			{
+				"name": "Frost Spike",
+				"input": "[LP] > [MP] > [HP]"
+			},
+			{
+				"name": "White Out",
+				"input": "[MK] > [HP] > [MP]+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Parabellum",
+				"input": ":qcf:+[P] {or} {tapPunch}",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Hailstorm",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Frost Touch - Low",
+				"input": ":qcb:+[LP]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{frostTouchLowEX}"
+			},
+			{
+				"name": "Frost Touch - Mid",
+				"input": ":qcb:+[MP]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{frostTouchMidEX}"
+			},
+			{
+				"name": "Frost Touch - High",
+				"input": ":qcb:+[HP]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{frostTouchHighEX}"
+			},
+			{
+				"name": "Vanity Step L",
+				"input": ":qcb:+[LK]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{vanityStepLEX}"
+			},
+			{
+				"name": "Silver Edge",
+				"input": "[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"after": "Vanity Step L"
+			},
+			{
+				"name": "Vanity Step M",
+				"input": ":qcb:+[MK]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{vanityStepMEX}"
+			},
+			{
+				"name": "Cold Low",
+				"input": ":d:+[LK] > :d:+[HK]",
+				"after": "Vanity Step M"
+			},
+			{
+				"name": "Brinicle",
+				"input": ":d:+[LK] > :d:+[HP]",
+				"after": "Vanity Step M"
+			},
+			{
+				"name": "Snow Grain",
+				"input": ":d:+[MP] > [HP]",
+				"after": "Vanity Step M"
+			},
+			{
+				"name": "Reverse Javelin",
+				"input": "[HP]+[HK] > [HP]+[HK]",
+				"after": "Vanity Step M",
+				"extraInfo": "{duringVTrigger2}"
+			}
+			{
+				"name": "Vanity Step H",
+				"input": ":qcb:+[HK]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{vanityStepHEX}"
+			},
+			{
+				"name": "White Spear",
+				"input": "[LK] > [MK]",
+				"after": "Vanity Step H"
+			},
+			{
+				"name": "Diamond Dust",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Frost Edge",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			},
+			{
+				"name": "Reverse Javelin",
+				"input": "{duringDash} [HP]+[HK] > [HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Frost Tower",
+				"input": ":qcf::qcf:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"},
+			//KOLIN SF5 SPECIFIC
+			{ "frostTouchLowEX": "EX version done with [LP]+[MP]"},
+			{ "frostTouchMidEX": "EX version done with [LP]+[HP]"},
+			{ "frostTouchHighEX": "EX version done with [MP]+[HP]"},
+			{ "vanityStepLEX": "EX version done with [LK]+[MK] "},
+			{ "vanityStepMEX": "EX version done with [LK]+[HK] "},
+			{ "vanityStepHEX": "EX version done with [MK]+[HK] "},
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
