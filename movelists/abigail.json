@@ -1,0 +1,220 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Abigail"
+		},
+		{
+			"region": "japan",
+			"roman": "Abigail",
+			"original": "アビゲイル"
+		}
+	],
+	"images": {
+		"face": "abigail.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Red Leaf",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Hit & Run",
+				"input": ":b:+[LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Max Power",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Hybrid Charge",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Hungabee High",
+				"input": "[MP]+[MK]"
+			},
+			{
+				"name": "Hungabee Low",
+				"input": ":d:+[MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Ontario Drop",
+				"input": ":f:+[LK]+[MK]+[HK]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Abi Hammer",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Abi Lift",
+				"input": ":f:+[HP]",
+				"extraInfo": "{hold} [HP] {toCharge} {duringVTrigger1}"
+			},
+			{
+				"name": "Abi Blaster",
+				"input": ":b:+[HP]",
+				"extraInfo": "{hold} [HP] {toCharge} {duringVTrigger1}"
+			},
+			{
+				"name": "Abi Scissor",
+				"input": ":db:+[HK]"
+			},
+			{
+				"name": "Vroom Vroom",
+				"input": "[LP] > [LP]"
+			},
+			{
+				"name": "Bang Bang",
+				"input": ":d:+[LP] > :d:+[LP]"
+			},
+			{
+				"name": "Abi Twist",
+				"input": ":b:+[HP] > [HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Abigail Punch",
+				"input": ":qcf:+[P] ({tapPunch} {forMoreHits})",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Giant Flip",
+				"input": ":hcb:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Abigail Smash",
+				"input": ":hcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Nitro Charge",
+				"input": "[K]+[K] {holdToDelay}",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Dynamite Punch",
+				"input": "[P]",
+				"canBeUpgraded": false,
+				"after": "Nitro Charge"
+			},
+			{
+				"name": "Avalanche Press",
+				"input": "[K]",
+				"canBeUpgraded": false,
+				"after": "Nitro Charge"
+			},
+			{
+				"name": "Bay Area Sunrise",
+				"input": "[LP]+[LK]",
+				"canBeUpgraded": false,
+				"after": "Nitro Charge"
+			},
+			{
+				"name": "Nitro Hungabee High",
+				"input": "[MP]+[MK]",
+				"canBeUpgraded": false,
+				"after": "Nitro Charge"
+			},
+			{
+				"name": "Nitro Hungabee Low",
+				"input": ":d:+[MP]+[MK]",
+				"canBeUpgraded": false,
+				"after": "Nitro Charge"
+			},
+			{
+				"name": "Drop Back",
+				"input": "{whileDelaying} Nitro Charge, :b:",
+				"canBeUpgraded": false
+			},
+			{
+				"name": "Metro Crash",
+				"input": "[HP]+[HK] {holdToCharge}",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Abigail Special",
+				"input": ":qcf::qcf:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
