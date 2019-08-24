@@ -1,0 +1,214 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "G"
+		},
+		{
+			"region": "japan",
+			"roman": "G",
+			"original": "ジー"
+		}
+	],
+	"images": {
+		"face": "g.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Violence President",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Shining President",
+				"input": "{onCrouchingOpponent} [LP]+[LK]"
+			},
+			{
+				"name": "Destroy President",
+				"input": ":b:+[LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Maximum President",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Dangerous President",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "G Barrier",
+				"input": "[MP]+[MK]",
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "Airborne G Barrier",
+				"input": "{duringVerticalOrForwardJump} [MP]+[MK]"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "G Revenge",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Wild President",
+				"input": ":f:+[HP]",
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "Strong President",
+				"input": ":b:+[HP]",
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "Crash President",
+				"input": ":f:+[HK]"
+			},
+			{
+				"name": "Flying President",
+				"input": "{duringForwardJump} :d:+[MP]"
+			},
+			{
+				"name": "Message To The People",
+				"input": ":d::d:+[K]+[K] {holdToExtend}"
+			},
+			{
+				"name": "Message To The People (Cancel)",
+				"input": "{duringGChargeSupported} [K]+[K] {holdToExtend}"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "G Burst",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "G Spin Kick",
+				"input": ":qcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "G Smash Over",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "G Smash Under",
+				"input": ":dp:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"extraInfo": "{gChargeSupported}"
+			},
+			{
+				"name": "G Impact",
+				"input": ":hcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "G Explosion",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{gChargeSupported}, {duringVTrigger2}"
+			},
+			{
+				"name": "G Rage",
+				"input": ":d:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+			{
+				"name": "G Charge",
+				"input": ":d::d:+[P]+[P] {holdToExtend}"
+			},
+			{
+				"name": "G Charge (Cancel)",
+				"input": "{duringGChargeSupported} [P]+[P]"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Pangaea Burst",
+				"input": ":qcf::qcf:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"},
+			//G SPECIFIC
+			{ "gChargeSupported": "G Charge-supported attack"},
+			{ "duringGChargeSupported": "during a G Charge-supported attack, "}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"},
+			//G SPECIFIC
+			{ "gChargeSupported": "ataque compatível com G Charge"},
+			{ "duringGChargeSupported": "durante um ataque compatível com G Charge, "}
+		]
+	}
+}
