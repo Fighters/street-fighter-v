@@ -1,0 +1,192 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Kage"
+		},
+		{
+			"region": "japan",
+			"roman": "Kage",
+			"original": "影"
+		}
+	],
+	"images": {
+		"face": "kage.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Shoulder Throw",
+				"input": "[LP]+[LK]"
+			},
+			{
+				"name": "Somersault Throw",
+				"input": ":b:+[LP]+[LK]"
+			}		
+		],
+		"{v-trigger1}": [
+			{
+				"name": "Taigyaku Mudo",
+				"input": "[HP]+[HK]"
+			}	
+		],
+		"{v-trigger2}": [
+			{
+				"name": "Rikudo Osatsu",
+				"input": "[HP]+[HK]"
+			}
+		],
+		"{v-skill}": [
+			{
+				"name": "Senha Kassatsu",
+				"input": "[MP]+[MK] {holdToCharge}"
+			}
+		],
+		"{v-reversal}": [
+			{
+				"name": "Senbugeki",
+				"input": ":f:+[LP]+[MP]+[HP]",
+				"extraInfo": "{whileBlocking}"
+			}		
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Zugaihasatsu",
+				"input": ":f:+[MP]"
+			},
+			{
+				"name": "Kikokuduki",
+				"input": ":f:+[HP]"
+			},
+			{
+				"name": "Kikokuretsuzan",
+				"input": ":f:+[HP] > [HK]"
+			},
+			{
+				"name": "Tenmakujinkyaku",
+				"input": "{duringForwardJump} :d:+[MK]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Hadoken",
+				"input": ":qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Airborne Hadoken",
+				"input": "{duringForwardJump} :qcf:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Shakunetsu Hadoken",
+				"input": ":hcb:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Shoryuken",
+				"input": ":dp:+[P]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Kurekijin",
+				"input": ":qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Airborne Kurekijin",
+				"input": "{duringForwardJump} :qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Ryusokyaku",
+				"input": ":hcf:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
+			},
+			{
+				"name": "Ashura Senku",
+				"input": ":n: {or} :b:+[HP]+[HK]",
+				"extraInfo": "{duringVTrigger1}"
+			},
+			{
+				"name": "Misogi",
+				"input": "[HP]+[HK]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		],
+		"{critical-art}": [
+			{
+				"name": "Metsu Shoryuken",
+				"input": ":qcf::qcf:+[P]"
+			},
+			{
+				"name": "Shun Goku Satsu",
+				"input": "[LP] > [LP] > :f: > [LK] > [HP]",
+				"extraInfo": "{duringVTrigger2}"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "or": "or"},
+			{ "airOK":"can be done in the air"},
+			{ "close": "close"},
+			{ "inAir" : "in the air" },
+			{ "duringJumpNearWall" : "during jump near wall"},
+			{ "inAirAndClose" : "close to the opponent in the air"},
+			{ "whileBlocking": "while blocking"},
+			{ "tapPunch": "tap [P] repeatedly"},
+			{ "tapKick": "tap [K] repeatedly"},
+			{ "holdToAttack" : "hold buttons to attack"},
+			{ "holdToExtend" : "hold buttons to extend"},
+			{ "holdToCharge" : "hold buttons to charge"},
+			{ "holdHKToAttack": "hold HK to attack"},
+			{ "press": "press"},
+			{ "hold": "hold"},
+			{ "toDelay": "to delay"},
+			{ "toCharge": "to charge"},
+			{ "toExtend": "to extend the duration"},
+			{ "charge": "charge"},
+			{ "duringVTrigger1": "during V-Trigger 1"},
+			{ "duringVTrigger2": "during V-Trigger 2"},
+			{ "duringForwardJump": "during forward jump" },
+			{ "duringVerticalJump": "during vertical jump"},
+			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
+			{ "duringDash" : "during a dash"},
+			{ "doNothing": "do nothing"},
+			{ "onCrouchingOpponent": "on a crouching opponent"},
+			{ "useBOrFToMove": "use :b: or :f: to move"}
+		],
+		"portuguese": [
+			{ "or": "ou"},
+			{ "airOK":"também pode ser feito no ar"},
+			{ "close": "perto"},
+			{ "inAir" : "no ar" },
+			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
+			{ "inAirAndClose" : "perto do oponente, no ar"},
+			{ "whileBlocking": "ao defender"},
+			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
+			{ "tapPunch": "aperte [P] repetidamente"},
+			{ "tapKick": "aperte [K] repetidamente"},
+			{ "holdToAttack" : "segure os botões para atacar"},
+			{ "holdToExtend" : "segure os botões aumentar a duração"},
+			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
+			{ "holdHKToAttack": "segure HK para atacar"},
+			{ "press": "aperte"},
+			{ "hold": "segure"},
+			{ "toDelay": "para atrasar"},
+			{ "toCharge": "para aumentar a força do golpe"},
+			{ "toExtend": "para aumentar a duração"},
+			{ "charge": "segure"},
+			{ "duringVTrigger1": "durante o V-Trigger 1"},
+			{ "duringVTrigger2": "durante o V-Trigger 2"},
+			{ "duringForwardJump": "durante um pulo para frente" },
+			{ "duringVerticalJump": "durante um pulo reto"},
+			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
+			{ "duringDash" : "durante um dash"},
+			{ "doNothing": "não faça nada"},
+			{ "onCrouchingOpponent": "em um oponente abaixado"},
+			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
+		]
+	}
+}
