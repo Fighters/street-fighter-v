@@ -28,7 +28,7 @@
 				"input": "{inAirAndClose} [LP]+[LK]"
 			},
 			{
-				"name": "Flying Buster Chop",
+				"name": "Flying Buster Drop",
 				"input": "{inAirAndClose} :b:+[LP]+[LK]"
 			}	
 		],
