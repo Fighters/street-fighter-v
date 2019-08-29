@@ -14,7 +14,7 @@
 		"face": "dhalsim.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Yoga Rocket",
 				"input": "[LP]+[LK]"
@@ -54,7 +54,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Yoga Upper",
 				"input": ":b:+[MP]"
@@ -76,7 +76,7 @@
 				"input": "{inAir} :d:+[K]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Yoga Fire",
 				"input": ":qcf:+[P]",

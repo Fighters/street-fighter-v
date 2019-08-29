@@ -14,7 +14,7 @@
 		"face": "rashid.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Riding Glider",
 				"input": "[LP]+[LK]"
@@ -63,7 +63,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Flap Spin",
 				"input": ":f:+[MP]"
@@ -77,7 +77,7 @@
 				"input": "{duringJumpNearWall} :uf: {or} :df:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Whirlwind Shot",
 				"input": ":qcf:+[K]",

@@ -14,7 +14,7 @@
 		"face": "menat.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Overflowing Nile",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Divine Retribution",
 				"input": ":f:+[MK]"
@@ -67,7 +67,7 @@
 				"input": "{inAir} :d:+[K]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Soul Sphere",
 				"input": ":qcf:+[P]",

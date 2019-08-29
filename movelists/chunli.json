@@ -14,7 +14,7 @@
 		"face": "chunli.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Koshuto",
 				"input": "[LP]+[LK]"
@@ -58,7 +58,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Tsuitotsuken",
 				"input": ":b: {or} :f:+[MP]",
@@ -92,7 +92,7 @@
 				"input": "{duringJumpNearWall}, :uf:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Kikoken",
 				"input": "{charge} :b: :f:+[P]",

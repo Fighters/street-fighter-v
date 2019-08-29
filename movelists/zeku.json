@@ -14,7 +14,7 @@
 		"face": "zeku.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "[Old] Tsurigane Otoshi",
 				"input": "[LP]+[LK]"
@@ -61,7 +61,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "[Old] Nouten Wari",
 				"input": ":f:+[HP]"
@@ -121,7 +121,7 @@
 				"after": "[Young] Sankaku Tobi"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "[Old] Bushin Gram - Koku",
 				"input": ":qcf:+[K]",

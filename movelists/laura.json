@@ -14,7 +14,7 @@
 		"face": "laura.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Seoi Throw",
 				"input": "[LP]+[LK]"
@@ -61,7 +61,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Step Elbow",
 				"input": ":f:+[HP]"
@@ -75,7 +75,7 @@
 				"input": "[MP] > [MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Bolt Charge",
 				"input": ":qcf:+[P]",

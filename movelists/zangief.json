@@ -14,7 +14,7 @@
 		"face": "zangief.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Atomic Drop",
 				"input": "[LP]+[LK]"
@@ -58,7 +58,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Head Butt",
 				"input": ":f:+[HP]"
@@ -76,7 +76,7 @@
 				"input": "{duringVerticalJump} :u:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Double Lariat",
 				"input": "[LP]+[MP]+[HP] ({useBOrFToMove})",

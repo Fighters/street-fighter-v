@@ -14,7 +14,7 @@
 		"face": "ken.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Knee Bash",
 				"input": "[LP]+[LK]"
@@ -51,7 +51,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Thunder Kick",
 				"input": ":f:+[HK] (holdHKToAttack)"
@@ -73,7 +73,7 @@
 				"input": "[MK] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P]",

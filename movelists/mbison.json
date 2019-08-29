@@ -14,7 +14,7 @@
 		"face": "mbison.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Psycho Impact",
 				"input": "[LP]+[LK]"
@@ -55,7 +55,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Hell Attack",
 				"input": "{inAir} [MP] > [MP]"
@@ -69,7 +69,7 @@
 				"input": "[MP] > :df:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Psycho Inferno",
 				"input": ":qcb:+[P]",

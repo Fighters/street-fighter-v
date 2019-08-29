@@ -14,7 +14,7 @@
 		"face": "akuma.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Goshoha",
 				"input": "[LP]+[LK]"
@@ -59,7 +59,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Zugaihasatsu",
 				"input": ":f:+[MP]"
@@ -85,7 +85,7 @@
 				"input": "[HK] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Gohadoken",
 				"input": ":qcf:+[P]",

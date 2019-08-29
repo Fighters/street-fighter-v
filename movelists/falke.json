@@ -14,7 +14,7 @@
 		"face": "falke.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Wirbel Wind",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Psycho Spitze",
 				"input": ":f:+[HP]"
@@ -67,7 +67,7 @@
 				"input": "{inAir} :d:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Psycho Kugel",
 				"input": "{hold} [HP] {then} {release} {whileStanding}",

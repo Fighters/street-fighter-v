@@ -14,7 +14,7 @@
 		"face": "ibuki.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Yamikazura",
 				"input": "[LP]+[LK]"
@@ -65,7 +65,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Agemen",
 				"input": ":b:+[MP]"
@@ -115,7 +115,7 @@
 				"input": "{duringVerticalOrForwardJump} [K]+[K]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Kunai",
 				"input": ":qcf:+[P]",

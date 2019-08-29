@@ -14,7 +14,7 @@
 		"face": "juri.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Chisenkyaku",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Senkaikyaku",
 				"input": ":f:+[MK]"
@@ -71,7 +71,7 @@
 				"input": "{inAir} [MP] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Fuharenkyaku",
 				"input": ":qcf:+[K]",

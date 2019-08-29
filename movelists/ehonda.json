@@ -14,7 +14,7 @@
 		"face": "ehonda.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Saba-Ori",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Harai-Geri",
 				"input": ":f:+[HK]"
@@ -75,7 +75,7 @@
 				"input": "[LP] > [MP] > [MP]+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hundred Hand Slap",
 				"input": "{tapPunch}",

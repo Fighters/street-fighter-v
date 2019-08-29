@@ -14,7 +14,7 @@
 		"face": "karin.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Hajotsui",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Tsumujigari",
 				"input": ":f:+[MK]"
@@ -59,7 +59,7 @@
 				"input": "{inAir} [MP] > [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Kanzuki-Ryu Hokojutsu Seppo",
 				"input": ":qcf:+[K]",

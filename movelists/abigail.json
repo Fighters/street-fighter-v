@@ -14,7 +14,7 @@
 		"face": "abigail.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Red Leaf",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Abi Hammer",
 				"input": ":f:+[MP]"
@@ -85,7 +85,7 @@
 				"input": ":b:+[HP] > [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Abigail Punch",
 				"input": ":qcf:+[P] ({tapPunch} {forMoreHits})",

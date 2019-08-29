@@ -14,7 +14,7 @@
 		"face": "ed.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Psycho Blow",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Psycho Flicker",
 				"input": "{tapPunch}",

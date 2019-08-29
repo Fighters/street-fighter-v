@@ -14,7 +14,7 @@
 		"face": "kage.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Zugaihasatsu",
 				"input": ":f:+[MP]"
@@ -67,7 +67,7 @@
 				"input": "{duringForwardJump} :d:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P]",

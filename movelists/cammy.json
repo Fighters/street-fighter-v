@@ -14,7 +14,7 @@
 		"face": "cammy.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Gyro Clipper",
 				"input": "[LP]+[LK]"
@@ -58,7 +58,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Knee Bullet",
 				"input": ":f:+[HK]",
@@ -72,7 +72,7 @@
 				"input": ":b:+[MP] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Spiral Arrow",
 				"input": ":qcf:+[K]",

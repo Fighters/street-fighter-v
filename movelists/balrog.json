@@ -14,7 +14,7 @@
 		"face": "balrog.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Dirty Bomber",
 				"input": "[LP]+[LK]"
@@ -59,7 +59,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Under Impact",
 				"input": "[LK] > [MK] > [HK]"
@@ -77,7 +77,7 @@
 				"input": ":d:+[MK] > :d:+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Dash Straight",
 				"input": "{charge} :b: :f:+[P]",

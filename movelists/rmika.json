@@ -14,7 +14,7 @@
 		"face": "rmika.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Daydream Headlock",
 				"input": "[LP]+[LK]"
@@ -65,7 +65,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Lady Mika",
 				"input": ":f:+[HP]"
@@ -97,7 +97,7 @@
 				"input": "{inAir} [MP] > [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Shooting Peach",
 				"input": ":qcf:+[P]",

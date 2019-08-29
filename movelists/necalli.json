@@ -14,7 +14,7 @@
 		"face": "necalli.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Soul Sealer",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Opening Dagger",
 				"input": ":df:+[HP] ({duringVTrigger1} {or} {duringVTrigger2} {hold} [HP] {toCharge})"
@@ -63,7 +63,7 @@
 				"input": "[MK] > [HK] > [MP]+[MK] {or} :b:+[MP]+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "The Disc's Guidance",
 				"input": "{charge} :b: :f:+[P]",

@@ -14,7 +14,7 @@
 		"face": "blanka.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Wild Fang",
 				"input": "[LP]+[LK]"
@@ -69,7 +69,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Rock Crusher",
 				"input": ":f:+[MP]"
@@ -91,7 +91,7 @@
 				"input": ":b:+[LK]+[MK]+[HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Electric Thunder",
 				"input": "{tapPunch} ({tapPunch} {toExtend})",

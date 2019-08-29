@@ -14,7 +14,7 @@
 		"face": "fang.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shimonshu",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Nirenko",
 				"input": ":df:+[HP]"
@@ -59,7 +59,7 @@
 				"input": ":d:+[LP]+[MP]+[HP] > [K]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Nishikyu",
 				"input": "{charge} :d: :u:+[P]",

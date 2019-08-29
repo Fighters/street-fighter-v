@@ -14,7 +14,7 @@
 		"face": "ryu.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Collarbone Breaker",
 				"input": ":f:+[MP]"
@@ -71,7 +71,7 @@
 				"input": "[MP] > [HP] > [HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P] ({duringVTrigger1}, {hold} [P] {toDelay}",

@@ -14,7 +14,7 @@
 		"face": "birdie.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Bad Skull",
 				"input": "[LP]+[LK]"
@@ -57,7 +57,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Bull Drop",
 				"input": ":f:+[HK]",
@@ -75,7 +75,7 @@
 				"input": ":d:+[HP] > [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Bull Horn",
 				"input": "{hold} [P] {or} [K] {forAtLeast2SecondsThenRelease}",

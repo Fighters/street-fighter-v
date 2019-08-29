@@ -14,7 +14,7 @@
 		"face": "urien.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Spartan Bomb",
 				"input": ":b: {or} :n: {or} :f:+[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Quarrel Punch",
 				"input": ":f:+[MP]"
@@ -75,7 +75,7 @@
 				"input": ":f:+[MP] > :f:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Metallic Sphere",
 				"input": ":qcf:+[P] ({hold} [P] {toCharge})",

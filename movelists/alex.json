@@ -14,7 +14,7 @@
 		"face": "alex.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Face-Crush Chop",
 				"input": "[LP]+[LK]"
@@ -49,7 +49,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Chop",
 				"input": ":f:+[MP]"
@@ -63,7 +63,7 @@
 				"input": "{duringForwardJump} :d:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Flash Chop",
 				"input": "qcf:+[P]",

@@ -14,7 +14,7 @@
 		"face": "g.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Violence President",
 				"input": "[LP]+[LK]"
@@ -58,7 +58,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Wild President",
 				"input": ":f:+[HP]",
@@ -86,7 +86,7 @@
 				"input": "{duringGChargeSupported} [K]+[K] {holdToExtend}"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "G Burst",
 				"input": ":qcf:+[P]",

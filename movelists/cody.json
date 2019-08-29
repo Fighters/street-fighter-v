@@ -14,7 +14,7 @@
 		"face": "cody.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Trash Out",
 				"input": "[LP]+[LK]"
@@ -54,7 +54,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Axel Knuckle",
 				"input": ":f:+[HP]"
@@ -101,7 +101,7 @@
 				"extraInfo": "{duringVTrigger1}"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Tornado Sweep",
 				"input": ":qcf:+[P]",

@@ -14,7 +14,7 @@
 		"face": "nash.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Dragon Suplex",
 				"input": "[LP]+[LK]"
@@ -61,7 +61,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Chopping Assault",
 				"input": ":f:+[MP]"
@@ -119,7 +119,7 @@
 				"input": "[MK] > [HK] > [MP]+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Sonic Boom",
 				"input": ":qcf:+[P]",

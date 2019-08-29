@@ -14,7 +14,7 @@
 		"face": "kolin.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Pressure Ridge",
 				"input": "[LP]+[LK]"
@@ -53,7 +53,7 @@
 				"extraInfo": "{whileBlocking}"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Blizzard Heel",
 				"input": ":f:+[MK]"
@@ -75,7 +75,7 @@
 				"input": "[MK] > [HP] > [MP]+[MK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Parabellum",
 				"input": ":qcf:+[P] {or} {tapPunch}",

@@ -14,7 +14,7 @@
 		"face": "guile.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Dragon Suplex",
 				"input": "[LP]+[LK]"
@@ -57,7 +57,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Full Bullet Magnum",
 				"input": ":f:+[MP]"
@@ -111,7 +111,7 @@
 				"input": "{hold} :df:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Sonic Boom",
 				"input": "{charge} :b: :f:+[P]",

@@ -14,7 +14,7 @@
 		"face": "sakura.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Hanakaze",
 				"input": "[LP]+[LK]"
@@ -68,7 +68,7 @@
 				"extraInfo": "{whileBlocking}"
 			}		
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Floral Kick",
 				"input": ":f:+[MK]"
@@ -82,7 +82,7 @@
 				"input": ":b:+[HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P] ({hold} [P] {toCharge})",
