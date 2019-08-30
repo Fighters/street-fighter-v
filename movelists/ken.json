@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Ken"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Ken",
 			"original": "ケン"
 		}
-	],
+	},
 	"images": {
 		"face": "ken.webp"
 	},
@@ -24,27 +22,26 @@
 				"input": ":b:+[LP]+[LK]"
 		 }		
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Heat Rush",
 				"input": "[HP]+[HK]"
 			}		
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Shinryuken",
 				"input": "[HP]+[HK]",
-				"extraInfo": "{tapPunchForMoreHits}"
+				"extraInfo": "{tapPunch} {forMoreHits}"
 			}		
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Quick Step",
-				"input": "[MP]+[MK]",
-				"extraInfo": "{holdToAttack}"
+				"input": "[MP]+[MK] ({hold} [MP]+[MK] {toAttack})"
 			}		
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Senpu Nataotoshi",
 				"input": ":f:+[LK]+[MK]+[HK]",
@@ -54,7 +51,7 @@
 		"{uniqueAttacks}": [
 			{
 				"name": "Thunder Kick",
-				"input": ":f:+[HK] (holdHKToAttack)"
+				"input": ":f:+[HK] ({hold} [HK] {toAttack})"
 			},
 			{
 				"name": "Inazuma Kick",
@@ -91,46 +88,21 @@
 			},
 			{
 				"name": "Airborne Tatsumaki Senpukyaku",
-				"input": ":qcb:+[K]",
-				"canBeUpgraded": true, "costOfUpgrade": 1,
-				"extraInfo": "{duringForwardJump}"
+				"input": "{duringForwardJump} :qcb:+[K]",
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Shinryuken",
-				"input": "[HP]+[HK]",
-				"extraInfo": "{duringVTrigger2}, {tapPunchForMoreHits}"
+				"input": "[HP]+[HK] ({tapPunch} {forMoreHits})",
+				"extraInfo": "{duringVTrigger2}"
 			}
 
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Guren Enjinkyaku",
 				"input": ":qcf::qcf:+[K]"
 			}
-		]
-	},
-	"custom_strings": {
-		"english": [
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunchForMoreHits": "tap [P] repeatedly for more hits"},
-			{ "holdToAttack" : "hold buttons to attack "},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" }
-		],
-		"portuguese": [
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" }
 		]
 	}
 }

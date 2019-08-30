@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Chun-Li"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Chun-Li",
 			"original": "チュンリー"
 		}
-	],
+	},
 	"images": {
 		"face": "chunli.webp"
 	},
@@ -29,19 +27,19 @@
 				"extraInfo": "{inAirAndClose}"
 			}
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Renkiko",
 				"input": "[HP]+[HK]"
 			}		
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Kikosho",
 				"input": "[HP]+[HK]"
 			}		
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Rankyaku",
 				"input": "[MP]+[MK]",
@@ -51,7 +49,7 @@
 				"input": "[MP]+[MK] > [MP]+[MK]",
 			}	
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Sohakkei",
 				"input": ":f:+[LP]+[MP]+[HP]",
@@ -125,46 +123,11 @@
 			}
 
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Hoyokusen",
 				"input": ":qcf::qcf:+[K]"
 			}
-		]
-	},
-	"custom_strings": {
-		"english": [
-			{ "or": "or"},
-			{ "inAir" : "in the air" },
-			{ "duringJumpNearWall" : "during jump near wall"},
-			{ "inAirAndClose" : "close to the opponent in the air"},
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] repeatedly"},
-			{ "tapKick": "tap [K] repeatedly"},
-			{ "holdToAttack" : "hold buttons to attack "},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "charge": "charge"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" }
-		],
-		"portuguese": [
-			{ "or": "ou"},
-			{ "inAir" : "no ar" },
-			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
-			{ "inAirAndClose" : "perto do oponente, no ar"},
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "charge": "segure"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" }
 		]
 	}
 }

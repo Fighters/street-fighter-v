@@ -1,10 +1,26 @@
 {
     "english": {
         "duringVTrigger1": "during V-Trigger 1",
-        "duringVTrigger2": "during V-Trigger 2"
+        "duringVTrigger2": "during V-Trigger 2",
+        "normalThrows": "Normal Throws",
+        "uniqueAttacks": "Unique Attacks",
+        "specialMoves": "Special Moves",
+        "criticalArt": "Critical Art",
+        "vTrigger1": "V-Trigger 1",
+        "vTrigger2": "V-Trigger 2",
+        "vSkill": "V-Skill",
+        "vReversal": "V-Reversal"
     },
     "portuguese": {
         "duringVTrigger1": "durante o V-Trigger 1",
-        "duringVTrigger2": "durante o V-Trigger 2"
+        "duringVTrigger2": "durante o V-Trigger 2",
+        "normalThrows": "Agarrões Normais",
+        "uniqueAttacks": "Ataques Únicos",
+        "specialMoves": "Golpes Especiais",
+        "criticalArt": "Critical Art",
+        "vTrigger1": "V-Trigger 1",
+        "vTrigger2": "V-Trigger 2",
+        "vSkill": "V-Skill",
+        "vReversal": "V-Reversal"
     }
 }

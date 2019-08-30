@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "E. Honda"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "E. Honda",
 			"original": "エドモンド本田"
 		}
-	],
+	},
 	"images": {
 		"face": "ehonda.webp"
 	},
@@ -24,25 +22,25 @@
 				"input": ":b:+[LP]+[LK]"
 			}		
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Onigawara",
 				"input": "[HP]+[HK]"
 			}	
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Tajikarao",
 				"input": "[HP]+[HK]"
 			}
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Neko Damashi",
 				"input": "[MP]+[MK]"
 			}
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Raiden-Ho",
 				"input": ":f:+[LP]+[MP]+[HP]",
@@ -112,74 +110,11 @@
 				"extraInfo": "{duringVTrigger2}"
 			}
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Kamigashima",
 				"input": ":qcf::qcf:+[P]"
 			}
-		]
-	},
-	"custom_strings": {
-		"english": [
-			{ "or": "or"},
-			{ "airOK":"can be done in the air"},
-			{ "close": "close"},
-			{ "inAir" : "in the air" },
-			{ "duringJumpNearWall" : "during jump near wall"},
-			{ "inAirAndClose" : "close to the opponent in the air"},
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] repeatedly"},
-			{ "tapKick": "tap [K] repeatedly"},
-			{ "holdToAttack" : "hold buttons to attack"},
-			{ "holdToExtend" : "hold buttons to extend"},
-			{ "holdToCharge" : "hold buttons to charge"},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "press": "press"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "toCharge": "to charge"},
-			{ "toExtend": "to extend the duration"},
-			{ "charge": "charge"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" },
-			{ "duringVerticalJump": "during vertical jump"},
-			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
-			{ "duringDash" : "during a dash"},
-			{ "doNothing": "do nothing"},
-			{ "onCrouchingOpponent": "on a crouching opponent"},
-			{ "useBOrFToMove": "use :b: or :f: to move"}
-		],
-		"portuguese": [
-			{ "or": "ou"},
-			{ "airOK":"também pode ser feito no ar"},
-			{ "close": "perto"},
-			{ "inAir" : "no ar" },
-			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
-			{ "inAirAndClose" : "perto do oponente, no ar"},
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
-			{ "tapPunch": "aperte [P] repetidamente"},
-			{ "tapKick": "aperte [K] repetidamente"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdToExtend" : "segure os botões aumentar a duração"},
-			{ "holdToCharge" : "segure os botões para aumentar a força do golpe"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "press": "aperte"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "toCharge": "para aumentar a força do golpe"},
-			{ "toExtend": "para aumentar a duração"},
-			{ "charge": "segure"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" },
-			{ "duringVerticalJump": "durante um pulo reto"},
-			{ "duringVerticalOrForwardJump":"durante um pulo reto ou um pulo para frente"},
-			{ "duringDash" : "durante um dash"},
-			{ "doNothing": "não faça nada"},
-			{ "onCrouchingOpponent": "em um oponente abaixado"},
-			{ "useBOrFToMove": "use :b: ou :f: para se mover"}
 		]
 	}
 }

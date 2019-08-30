@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Cammy"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Cammy",
 			"original": "キャミィ"
 		}
-	],
+	},
 	"images": {
 		"face": "cammy.webp"
 	},
@@ -29,13 +27,13 @@
 				"extraInfo": "{inAirAndClose}"
 			}
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Delta Drive",
 				"input": "[HP]+[HK]"
 			}		
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Delta Ambush",
 				"input": "[HP]+[HK]"
@@ -45,13 +43,13 @@
 				"input": ":f:+[HP]+[HK]"
 			}		
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Axel Spin Knuckle",
 				"input": "[MP]+[MK]",
 			}	
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Strike Back",
 				"input": ":f:+[LK]+[MK]+[HK]",
@@ -146,50 +144,11 @@
 
 
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Cross Stinger Assault",
 				"input": ":qcf::qcf:+[K]"
 			}
-		]
-	},
-	"custom_strings": {
-		"english": [
-			{ "or": "or"},
-			{ "close": "close"},
-			{ "inAir" : "in the air" },
-			{ "duringJumpNearWall" : "during jump near wall"},
-			{ "inAirAndClose" : "close to the opponent in the air"},
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] repeatedly"},
-			{ "tapKick": "tap [K] repeatedly"},
-			{ "holdToAttack" : "hold buttons to attack "},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "charge": "charge"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" },
-			{ "doNothing": "do nothing"}
-		],
-		"portuguese": [
-			{ "or": "ou"},
-			{ "close": "perto"},
-			{ "inAir" : "no ar" },
-			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
-			{ "inAirAndClose" : "perto do oponente, no ar"},
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "charge": "segure"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" },
-			{ "doNothing": "não faça nada"}
 		]
 	}
 }

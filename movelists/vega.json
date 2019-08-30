@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Vega"
 		},
-		{
-        	"region": "japan",
-        	"roman": "Balrog",
-        	"original": "バルログ"
-        }
-	],
+		"japan": {
+			"roman": "Balrog",
+			"original": "バルログ"
+		}
+	},
 	"images": {
 		"face": "vega.webp"
 	},
@@ -28,7 +26,7 @@
 				"input": "{inAirAndClose} [LP]+[LK]"
 			}	
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Bloody Kiss - Torero",
 				"input": "[HP]+[HK]"
@@ -42,19 +40,19 @@
 				"input": "{duringForwardJump} [HP]+[HK]"
 			}		
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Alegrias",
 				"input": "[HP]+[HK]"
 			}		
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Matador Turn",
 				"input": "[MP]+[MK] {holdToAttack}"
 			}		
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Backslash",
 				"input": ":f:+[LP]+[MP]+[HP]",
@@ -161,7 +159,7 @@
 			}
 
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Bloody Rain",
 				"input": ":qcb::qcb: {or} :qcf::qcf:+[P]"
@@ -169,58 +167,17 @@
 		]
 	},
 	"custom_strings": {
-		"english": [
-			{ "or": "or"},
-			{ "airOK":"can be done in the air"},
-			{ "close": "close"},
-			{ "inAir" : "in the air" },
-			{ "duringJumpNearWall" : "during jump near wall"},
-			{ "inAirAndClose" : "close to the opponent in the air"},
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] repeatedly"},
-			{ "tapKick": "tap [K] repeatedly"},
-			{ "holdToAttack" : "hold buttons to attack "},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "toCharge": "to charge"},
-			{ "charge": "charge"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" },
-			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
-			{ "doNothing": "do nothing"},
-			{ "exOnly": "costs 1 EX meter"},
-			//VEGA SF5 SPECIFICS
-			{"clawOnOnly" : "CLAW ON only"},
-			{"clawOffOnly" : "CLAW OFF only"},
-			{"flamencoTavernOnly": "can only be done in the Flamenco Tavern stage"}
-
-		],
-		"portuguese": [
-			{ "or": "ou"},
-			{ "airOK":"também pode ser feito no ar"},
-			{ "close": "perto"},
-			{ "inAir" : "no ar" },
-			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
-			{ "inAirAndClose" : "perto do oponente, no ar"},
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunch": "aperte [P] repetidamente para mais hits"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "toCharge": "para aumentar a força do golpe"},
-			{ "charge": "segure"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" },
-			{ "doNothing": "não faça nada"},
-			{ "exOnly": "custa 1 barra do medidor EX"},
-			//VEGA SF5 SPECIFICS
-			{"clawOnOnly" : "só pode ser feito com a garra"},
-			{"clawOffOnly" : "só pode ser feito sem a garra"},
-			{"flamencoTavernOnly": "só pode ser feito no cenário Flamenco Tavern"}
-		]
+		"english":
+		{
+			"clawOnOnly" : "CLAW ON only",
+			"clawOffOnly" : "CLAW OFF only",
+			"flamencoTavernOnly": "can only be done in the Flamenco Tavern stage"
+		},
+		"portuguese": 
+		{
+			"clawOnOnly" : "só pode ser feito COM a garra",
+			"clawOffOnly" : "só pode ser feito SEM a garra",
+			"flamencoTavernOnly": "só pode ser feito no cenário Flamenco Tavern"
+		}
 	}
 }

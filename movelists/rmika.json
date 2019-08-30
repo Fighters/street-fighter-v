@@ -1,15 +1,13 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "R. Mika"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "R. Mika",
 			"original": "レインボー・ミカ"
-				}
-	],
+		}
+	},
 	"images": {
 		"face": "rmika.webp"
 	},
@@ -28,7 +26,7 @@
 				"input": ":b:+[LP]+[LK]"
 			}		
 		],
-		"{v-trigger1}": [
+		"{vTrigger1}": [
 			{
 				"name": "Nadeshiko (Above)",
 				"input": "[HP]+[HK] ({hold} [HP]+[HK] {toDelay})"
@@ -42,7 +40,7 @@
 				"input": ":f:+[HP]+[HK] ({hold} [HP]+[HK] {toDelay})"
 			}	
 		],
-		"{v-trigger2}": [
+		"{vTrigger2}": [
 			{
 				"name": "Steel Chair",
 				"input": "{press} [HP]+[HK]"
@@ -52,13 +50,13 @@
 				"input": "{hold} [HP]+[HK]"
 			}
 		],
-		"{v-skill}": [
+		"{vSkill}": [
 			{
 				"name": "Mic Performance",
 				"input": "[MP]+[MK] ({hold} [MP]+[MK] {toExtend})"
 			}	
 		],
-		"{v-reversal}": [
+		"{vReversal}": [
 			{
 				"name": "Peach Gator",
 				"input": ":f:+[LK]+[MK]+[HK]",
@@ -130,63 +128,11 @@
 			}
 
 		],
-		"{critical-art}": [
+		"{criticalArt}": [
 			{
 				"name": "Peach Assault",
 				"input": ":qcb::qcb:+[P]"
 			}
-		]
-	},
-	"custom_strings": {
-		"english": [
-			{ "or": "or"},
-			{ "airOK":"can be done in the air"},
-			{ "close": "close"},
-			{ "inAir" : "in the air" },
-			{ "duringJumpNearWall" : "during jump near wall"},
-			{ "inAirAndClose" : "close to the opponent in the air"},
-			{ "whileBlocking": "while blocking"},
-			{ "tapPunch": "tap [P] repeatedly"},
-			{ "tapKick": "tap [K] repeatedly"},
-			{ "holdToAttack" : "hold buttons to attack "},
-			{ "holdHKToAttack": "hold HK to attack"},
-			{ "press": "press"},
-			{ "hold": "hold"},
-			{ "toDelay": "to delay"},
-			{ "toCharge": "to charge"},
-			{ "toExtend": "to extend the duration"},
-			{ "charge": "charge"},
-			{ "duringVTrigger1": "during V-Trigger 1"},
-			{ "duringVTrigger2": "during V-Trigger 2"},
-			{ "duringForwardJump": "during forward jump" },
-			{ "duringVerticalOrForwardJump":"during vertical or forward jump"},
-			{ "doNothing": "do nothing"},
-			{ "onCrouchingOpponent": "on a crouching opponent"}
-		],
-		"portuguese": [
-			{ "or": "ou"},
-			{ "airOK":"também pode ser feito no ar"},
-			{ "close": "perto"},
-			{ "inAir" : "no ar" },
-			{ "duringJumpNearWall" : "durante um pulo, próximo à parede"},
-			{ "inAirAndClose" : "perto do oponente, no ar"},
-			{ "whileBlocking": "ao defender"},
-			{ "tapPunchForMoreHits": "aperte [P] repetidamente para mais hits"},
-			{ "tapPunch": "aperte [P] repetidamente"},
-			{ "tapKick": "aperte [K] repetidamente"},
-			{ "holdToAttack" : "segure os botões para atacar"},
-			{ "holdHKToAttack": "segure HK para atacar"},
-			{ "press": "aperte"},
-			{ "hold": "segure"},
-			{ "toDelay": "para atrasar"},
-			{ "toCharge": "para aumentar a força do golpe"},
-			{ "toExtend": "para aumentar a duração"},
-			{ "charge": "segure"},
-			{ "duringVTrigger1": "durante o V-Trigger 1"},
-			{ "duringVTrigger2": "durante o V-Trigger 2"},
-			{ "duringForwardJump": "durante um pulo para frente" },
-			{ "doNothing": "não faça nada"},
-			{ "onCrouchingOpponent": "em um oponente abaixado"}
 		]
 	}
 }
