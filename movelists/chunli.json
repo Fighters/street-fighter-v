@@ -42,11 +42,11 @@
 		"{vSkill}": [
 			{
 				"name": "Rankyaku",
-				"input": "[MP]+[MK]",
+				"input": "[MP]+[MK]"
 			},
 			{
 				"name": "Souseikyaku",
-				"input": "[MP]+[MK] > [MP]+[MK]",
+				"input": "[MP]+[MK] > [MP]+[MK]"
 			}	
 		],
 		"{vReversal}": [
@@ -59,7 +59,7 @@
 		"{uniqueAttacks}": [
 			{
 				"name": "Tsuitotsuken",
-				"input": ":b: {or} :f:+[MP]",
+				"input": ":b: {or} :f:+[MP]"
 			},
 			{
 				"name": "Hakkei",
@@ -99,7 +99,7 @@
 			{
 				"name": "Spinning Bird Kick",
 				"input": "{charge} :d: :u:+[K]",
-				"canBeUpgraded": true, "costOfUpgrade": 1,
+				"canBeUpgraded": true, "costOfUpgrade": 1
 			},
 			{
 				"name": "Hyakuretsukyaku I",
