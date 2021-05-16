@@ -1,26 +1,28 @@
 {
-	"romans": {
-		"regions": [
-			{ 
-				"region": "default",
-				"roman": "Street Fighter V"
-			},
-			{
-				"region": "japan",
-				"roman": "Street Fighter V",
-				"original": "ストリートファイターV"
-			}
-		],
-		"also-known-as": [
-			"sf5", "street 5", "sfv", "sf5ae", "sf5 arcade edition"
-		]
-	},
+	"names": [
+		{
+			"region": "default",
+			"roman": "Street Fighter V"
+		},
+		{
+			"region": "japan",
+			"roman": "Street Fighter V",
+			"original": "ストリートファイターV"
+		}
+	],
+	"also-known-as": [
+		"sf5",
+		"street 5",
+		"sfv",
+		"sf5ae",
+		"sf5 arcade edition"
+	],
 	"platforms": [
 		{
-			"platform": "Arcade",
+			"name": "Arcade",
 			"regions": [
 				{
-					"region": "Japan",
+					"name": "Japan",
 					"roman": "Street Fighter V Type Arcade",
 					"original": "ストリートファイターVタイプアーケード",
 					"releaseDate": "10-05-2018",
@@ -30,10 +32,10 @@
 			]
 		},
 		{
-			"platform": "PC",
+			"name": "PC",
 			"regions": [
 				{
-					"region": "default",
+					"name": "default",
 					"roman": "Street Fighter V",
 					"releaseDate": "02-16-2016",
 					"developer": "Capcom",
@@ -42,555 +44,84 @@
 			]
 		},
 		{
-			"platform": "PlayStation 4",
+			"name": "PlayStation 4",
 			"regions": [
 				{
-					"region": "United States",
+					"name": "United States",
 					"roman": "Street Fighter V",
 					"releaseDate": "02-16-2016",
 					"developer": "Capcom",
-                    "publisher": "Capcom",
+					"publisher": "Capcom",
 					"coverFront": "ps4-US-front.webp"
 				},
 				{
-                    "region": "Europe",
-                    "roman": "Street Fighter V",
-                    "releaseDate": "02-16-2016",
-                    "developer": "Capcom",
-                    "publisher": "Capcom",
-                    "coverFront": "ps4-EU-front.webp"
-                },
-				{
-					"region": "Japan",
+					"name": "Europe",
 					"roman": "Street Fighter V",
-                    "original": "ストリートファイターV",
 					"releaseDate": "02-16-2016",
-                    "developer": "Capcom",
-                    "publisher": "Capcom",
-                    "coverFront": "ps4-JP-front.webp"
-				},
-                {
-                    "region": "United States",
-                    "roman": "Street Fighter V Arcade Edition",
-                    "releaseDate": "01-16-2018",
-                    "developer": "Capcom",
-                    "publisher": "Capcom",
-                    "coverFront": "ps4-US-front-AE.webp"
-                },
-                {
-                    "region": "Europe",
-                    "roman": "Street Fighter V Arcade Edition",
-                    "releaseDate": "01-16-2018",
-                    "developer": "Capcom",
-                    "publisher": "Capcom",
-                    "coverFront": "ps4-EU-front-AE.webp"
-                },
-                {
-                    "region": "Japan",
-                    "roman": "Street Fighter V Arcade Edition",
-                    "original": "ストリートファイターVアーケードエディション",
-                    "releaseDate": "01-16-2018",
-                    "developer": "Capcom",
-                    "publisher": "Capcom",
-                    "coverFront": "ps4-JP-front.webp"
-                }
-			]
-		}		
-	],
-	"characters": [
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Ryu"
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps4-EU-front.webp"
 				},
 				{
-					"region": "japan",
-					"roman": "Ryu",
-					"original": "リュウ"
+					"name": "Japan",
+					"roman": "Street Fighter V",
+					"original": "ストリートファイターV",
+					"releaseDate": "02-16-2016",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps4-JP-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "Street Fighter V Arcade Edition",
+					"releaseDate": "01-16-2018",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps4-US-front-AE.webp"
+				},
+				{
+					"name": "Europe",
+					"roman": "Street Fighter V Arcade Edition",
+					"releaseDate": "01-16-2018",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps4-EU-front-AE.webp"
+				},
+				{
+					"name": "Japan",
+					"roman": "Street Fighter V Arcade Edition",
+					"original": "ストリートファイターVアーケードエディション",
+					"releaseDate": "01-16-2018",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": "ps4-JP-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "Street Fighter V Champion Edition",
+					"releaseDate": "02-14-2020",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": ""
+				},
+				{
+					"name": "Europe",
+					"roman": "Street Fighter V Champion Edition",
+					"releaseDate": "02-14-2020",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": ""
+				},
+				{
+					"name": "Japan",
+					"roman": "Street Fighter V Champion Edition",
+					"original": "ストリートファイターV チャンピオンエディション ",
+					"releaseDate": "02-14-2020",
+					"developer": "Capcom",
+					"publisher": "Capcom",
+					"coverFront": ""
 				}
 			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Ken Masters"
-				},
-				{
-					"region": "japan",
-					"roman": "Ken Masters",
-					"original": "ケン・マスターズ"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Chun-Li"
-				},
-				{
-					"region": "japan",
-					"roman": "Chun-Li",
-					"original": "チュンリー"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Cammy White"
-				},
-				{
-					"region": "japan",
-					"roman": "Cammy White",
-					"original": "キャミィ・ホワイト"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Birdie"
-				},
-				{
-					"region": "japan",
-					"roman": "Birdie",
-					"original": "バーディー"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Dhalsim"
-				},
-				{
-					"region": "japan",
-					"roman": "Dhalsim",
-					"original": "ダルシム"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Karin Kanzuki"
-				},
-				{
-					"region": "japan",
-					"roman": "Karin Kanzuki",
-					"original": "神月 かりん"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "M. Bison"
-				},
-				{
-					"region": "japan",
-					"roman": "Vega",
-					"original": "ベガ"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Charlie Nash"
-				},
-				{
-					"region": "japan",
-					"roman": "Charlie Nash",
-					"original": "チャーリー・ナッシュ"
-				}
-			]
-		},
-		{ 
-			"regions": [
-				{
-					"region": "default",
-					"roman": "Rainbow Mika"
-				},
-				{
-					"region": "japan",
-					"roman": "Rainbow Mika",
-					"original": "レインボー・ミカ"
-				}
-			]
-		},
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Vega"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Balrog",
-                    "original": "バルログ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Zangief"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Zangief",
-                    "original": "ザンギエフ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "F.A.N.G"
-                },
-                {
-                    "region": "japan",
-                    "roman": "F.A.N.G",
-                    "original": "ファン"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Laura Matsuda"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Laura Matsuda",
-                    "original": "ララ・マツダ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Necalli"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Necalli",
-                    "original": "ネカリ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Rashid"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Rashid",
-                    "original": "ラシード"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Alex"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Alex",
-                    "original": "アレックス"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Guile"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Guile",
-                    "original": "ガイル"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Ibuki"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Ibuki",
-                    "original": "いぶき"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Balrog"
-                },
-                {
-                    "region": "japan",
-                    "roman": "M. Bison",
-                    "original": "マイク・バイソン"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Juri Han"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Juri Han",
-                    "original": "ハン・ジュリ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Urien"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Urien",
-                    "original": "ユリアン"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Akuma"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Gouki",
-                    "original": "ゴウキ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Kolin"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Kolin",
-                    "original": "コーリン"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Ed"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Ed",
-                    "original": "エド"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Abigail"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Abigail",
-                    "original": "アビゲイル"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Menat"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Menat",
-                    "original": "メナト"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Zeku"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Zeku",
-                    "original": "是空"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Sakura Kasugano"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Sakura Kasugano",
-                    "original": "春日野 さくら"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Blanka"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Blanka",
-                    "original": "ブランカ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Falke"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Falke",
-                    "original": "ファルケ"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Cody Travers"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Cody Travers",
-                    "original": "コーディー・トラバース"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "G"
-                },
-                {
-                    "region": "japan",
-                    "roman": "G",
-                    "original": "ジー"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Sagat"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Sagat",
-                    "original": "サガット"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Kage"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Kage",
-                    "original": "影"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Edmond Honda"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Edmond Honda",
-                    "original": "エドモンド本田"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Lucia Morgan"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Lucia Morgan",
-                    "original": "ルシア・モーガン"
-                }
-            ]
-        },
-        { 
-            "regions": [
-                {
-                    "region": "default",
-                    "roman": "Poison"
-                },
-                {
-                    "region": "japan",
-                    "roman": "Poison",
-                    "original": "ポイズン"
-                }
-            ]
-        }
+		}
 	]
 }
